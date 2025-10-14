@@ -5,13 +5,13 @@ import rating from "../../assets/icon-ratings.png";
 const HomeApp = ({ appData }) => {
   console.log(appData);
   return (
-    <div className="p-3 rounded-xl bg-[#F3F3F3] shadow-2xl">
+    <div className="p-3 rounded-xl bg-[#F3F3F3] shadow-2xl max-w-[300px]">
       <div className="flex justify-center mb-3">
         <img
           className="rounded-xl"
           src={appData.image}
-          width="200"
-          height="200"
+          width="250"
+          height="250"
           alt=""
         />
       </div>
