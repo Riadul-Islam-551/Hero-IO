@@ -7,10 +7,26 @@ const Apps = () => {
   console.log(appsData);
   return (
     <div className="my-12 max-w-[1200px] mx-auto p-3 ">
-      <h1 className="text-3xl font-bold mt-7 text-center">Our All Applications</h1>
+      <h1 className="text-3xl font-bold mt-7 text-center">
+        Our All Applications
+      </h1>
       <p className="text-sm text-[#627382] mt-1 mb-7 text-center">
         Explore All Apps on the Market developed by us. We code for Millions
       </p>
+      {/* ................ */}
+      <div className="flex justify-between items-center mb-5">
+        {/* number of apps  */}
+        <div>
+          <p className="font-bold">
+            <span>({appsData.length})</span> Apps Found
+          </p>
+        </div>
+        {/* search apps  */}
+        <div>
+          <input type="text" placeholder="Search Apps" className="border border-gray-300 rounded py-1 px-2" />
+        </div>
+      </div>
+      {/* ................. */}
       <div className="flex justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 ">
           {appsData.map((appCard) => (
