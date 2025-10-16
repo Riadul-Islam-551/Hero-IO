@@ -1,10 +1,11 @@
 import React from "react";
 import { useLoaderData } from "react-router";
+import { CiSearch } from "react-icons/ci";
 import AppCard from "../../components/AppCard/AppCard";
 
 const Apps = () => {
   const appsData = useLoaderData();
-  console.log(appsData);
+  // console.log(appsData);
   return (
     <div className="my-12 max-w-[1200px] mx-auto p-3 ">
       <h1 className="text-3xl font-bold mt-7 text-center">
@@ -22,8 +23,9 @@ const Apps = () => {
           </p>
         </div>
         {/* search apps  */}
-        <div>
-          <input type="text" placeholder="Search Apps" className="border border-gray-300 rounded py-1 px-2" />
+        <div className="flex justify-start items-center gap-2 border border-gray-300 rounded py-1 px-2 text-sm">
+          <CiSearch />
+          <input type="text" placeholder="Search Apps" className="focus:outline-none" />
         </div>
       </div>
       {/* ................. */}

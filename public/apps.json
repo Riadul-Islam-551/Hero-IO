@@ -6,15 +6,15 @@
     "id": 1,
     "description": "FitTrack Pro is your personal fitness companion that helps you stay consistent and motivated. Track your daily steps, calories, heart rate, and progress over time with a clean and intuitive interface. Set custom goals, get smart reminders, and monitor your fitness journey effortlessly — whether you’re a beginner or an athlete aiming for peak performance.",
     "size": 56,
-    "reviews": 1450,
+    "reviews": "1.4K",
     "ratingAvg": 4.3,
-    "downloads": 500000,
+    "downloads": "5M",
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 210 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 640 }
+      { "name": "1 star", "count1": 120 },
+      { "name": "2 star", "count2": 80 },
+      { "name": "3 star", "count3": 210 },
+      { "name": "4 star", "count4": 400 },
+      { "name": "5 star", "count5": 640 }
     ]
   },
   {
@@ -24,15 +24,15 @@
     "id": 2,
     "description": "NoteMate makes note-taking faster, smarter, and simpler. Organize your thoughts, lectures, and ideas using tags, folders, and AI-powered search. Record voice notes, sync across devices, and access your content anywhere, anytime. Whether you’re a student, professional, or creative mind, NoteMate adapts to your workflow seamlessly.",
     "size": 34,
-    "reviews": 987,
+    "reviews": "0.9K",
     "ratingAvg": 4.6,
-    "downloads": 250000,
+    "downloads": "2.5M",
     "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 90 },
-      { "name": "4 star", "count": 270 },
-      { "name": "5 star", "count": 517 }
+      { "name": "1 star", "count1": 50 },
+      { "name": "2 star", "count2": 60 },
+      { "name": "3 star", "count3": 90 },
+      { "name": "4 star", "count4": 270 },
+      { "name": "5 star", "count5": 517 }
     ]
   },
   {
@@ -42,15 +42,15 @@
     "id": 3,
     "description": "TaskHero transforms how you manage your daily life. Create tasks, set priorities, and get intelligent reminders that keep you on track. With its gamified progress tracking and clean dashboard, TaskHero motivates you to stay productive while maintaining balance. Perfect for personal, academic, or professional task management.",
     "size": 40,
-    "reviews": 2200,
+    "reviews": "2.2K",
     "ratingAvg": 4.7,
-    "downloads": 1000000,
+    "downloads": "10M",
     "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 110 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 1200 }
+      { "name": "1 star", "count1": 90 },
+      { "name": "2 star", "count2": 110 },
+      { "name": "3 star", "count3": 200 },
+      { "name": "4 star", "count4": 600 },
+      { "name": "5 star", "count5": 1200 }
     ]
   },
   {
@@ -60,15 +60,15 @@
     "id": 4,
     "description": "LangLearn helps you master new languages through fun, interactive lessons. Practice vocabulary, grammar, and pronunciation with real-time feedback. With over 20 supported languages, you can start from scratch or strengthen existing skills. Daily challenges and progress streaks keep you motivated and consistent in your learning journey.",
     "size": 75,
-    "reviews": 3421,
+    "reviews": "3.4K",
     "ratingAvg": 4.5,
-    "downloads": 800000,
+    "downloads": "8M",
     "ratings": [
-      { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 421 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 1750 }
+      { "name": "1 star", "count1": 200 },
+      { "name": "2 star", "count2": 150 },
+      { "name": "3 star", "count3": 421 },
+      { "name": "4 star", "count4": 900 },
+      { "name": "5 star", "count5": 1750 }
     ]
   },
   {
@@ -78,15 +78,15 @@
     "id": 5,
     "description": "PhotoFix gives you professional-grade photo editing tools powered by AI. Enhance colors, remove blemishes, and apply creative filters effortlessly. The app’s auto-correction intelligently adjusts lighting and sharpness while preserving details. Whether you’re capturing memories or curating social content, PhotoFix makes every shot look stunning.",
     "size": 92,
-    "reviews": 5560,
+    "reviews": "5.5K",
     "ratingAvg": 4.4,
-    "downloads": 1200000,
+    "downloads": "1.2M",
     "ratings": [
-      { "name": "1 star", "count": 310 },
-      { "name": "2 star", "count": 240 },
-      { "name": "3 star", "count": 780 },
-      { "name": "4 star", "count": 1600 },
-      { "name": "5 star", "count": 2630 }
+      { "name": "1 star", "count1": 310 },
+      { "name": "2 star", "count2": 240 },
+      { "name": "3 star", "count3": 780 },
+      { "name": "4 star", "count4": 1600 },
+      { "name": "5 star", "count5": 2630 }
     ]
   },
   {
@@ -96,15 +96,15 @@
     "id": 6,
     "description": "MindEase is your pocket meditation coach designed to help you reduce stress and anxiety. Enjoy guided meditation sessions, breathing exercises, and calming background sounds. Track your mood, improve focus, and build mindfulness habits that fit your daily routine. Start your journey to a calmer and happier life today.",
     "size": 48,
-    "reviews": 1780,
+    "reviews": "1.7K",
     "ratingAvg": 4.8,
-    "downloads": 450000,
+    "downloads": "4.5M",
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 420 },
-      { "name": "5 star", "count": 1130 }
+      { "name": "1 star", "count1": 40 },
+      { "name": "2 star", "count2": 70 },
+      { "name": "3 star", "count3": 120 },
+      { "name": "4 star", "count4": 420 },
+      { "name": "5 star", "count5": 1130 }
     ]
   },
   {
@@ -114,15 +114,15 @@
     "id": 7,
     "description": "CookBook+ is a chef’s best friend. Discover thousands of recipes, from traditional meals to creative fusions. Each recipe includes step-by-step instructions, nutritional facts, and video tutorials. Save your favorites, create meal plans, and even generate shopping lists automatically. Bring the joy of cooking right to your kitchen.",
     "size": 63,
-    "reviews": 2100,
+    "reviews": "2.1K",
     "ratingAvg": 4.2,
-    "downloads": 700000,
+    "downloads": "7M",
     "ratings": [
-      { "name": "1 star", "count": 190 },
-      { "name": "2 star", "count": 180 },
-      { "name": "3 star", "count": 310 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 820 }
+      { "name": "1 star", "count1": 190 },
+      { "name": "2 star", "count2": 180 },
+      { "name": "3 star", "count3": 310 },
+      { "name": "4 star", "count4": 600 },
+      { "name": "5 star", "count5": 820 }
     ]
   },
   {
@@ -132,15 +132,15 @@
     "id": 8,
     "description": "BudgetBuddy is a simple yet powerful expense tracker that helps you manage money smarter. Visualize your income, spending, and savings through detailed charts. Set monthly budgets and receive alerts before you overspend. Whether you’re saving for a trip or managing bills, BudgetBuddy keeps your finances organized effortlessly.",
     "size": 44,
-    "reviews": 2987,
+    "reviews": "2.9K",
     "ratingAvg": 4.6,
-    "downloads": 600000,
+    "downloads": "6M",
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 250 },
-      { "name": "4 star", "count": 720 },
-      { "name": "5 star", "count": 1797 }
+      { "name": "1 star", "count1": 100 },
+      { "name": "2 star", "count2": 120 },
+      { "name": "3 star", "count3": 250 },
+      { "name": "4 star", "count4": 720 },
+      { "name": "5 star", "count5": 1797 }
     ]
   },
   {
@@ -150,15 +150,15 @@
     "id": 9,
     "description": "WeatherPro provides hyper-accurate weather forecasts for your location. Get real-time updates on temperature, humidity, and air quality. Track severe weather alerts and view radar maps for better planning. With a clean UI and customizable widgets, WeatherPro ensures you’re always ready — rain or shine.",
     "size": 38,
-    "reviews": 1840,
+    "reviews": "1.8K",
     "ratingAvg": 4.1,
-    "downloads": 850000,
+    "downloads": "8.5M",
     "ratings": [
-      { "name": "1 star", "count": 210 },
-      { "name": "2 star", "count": 180 },
-      { "name": "3 star", "count": 340 },
-      { "name": "4 star", "count": 530 },
-      { "name": "5 star", "count": 580 }
+      { "name": "1 star", "count1": 210 },
+      { "name": "2 star", "count2": 180 },
+      { "name": "3 star", "count3": 340 },
+      { "name": "4 star", "count4": 530 },
+      { "name": "5 star", "count5": 580 }
     ]
   },
   {
@@ -168,15 +168,15 @@
     "id": 10,
     "description": "NewsFlow delivers the latest updates from trusted global sources in real-time. Customize your feed by interests such as tech, politics, or sports. Save articles to read later and enjoy clutter-free, distraction-free reading. Stay informed, stay ahead, and experience news the smart way.",
     "size": 61,
-    "reviews": 1200,
+    "reviews": "1.2K",
     "ratingAvg": 4.3,
-    "downloads": 400000,
+    "downloads": "4M",
     "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 350 },
-      { "name": "5 star", "count": 510 }
+      { "name": "1 star", "count1": 80 },
+      { "name": "2 star", "count2": 60 },
+      { "name": "3 star", "count3": 200 },
+      { "name": "4 star", "count4": 350 },
+      { "name": "5 star", "count5": 510 }
     ]
   },
   {
@@ -186,15 +186,15 @@
     "id": 11,
     "description": "TravelGo simplifies your journey planning like never before. Discover top-rated destinations, compare hotel prices, and book flights directly from the app. Built-in travel guides and interactive maps make exploring new places more exciting. With smart itinerary suggestions and offline access, TravelGo ensures your adventure stays smooth and stress-free.",
     "size": 88,
-    "reviews": 3410,
+    "reviews": "3.4K",
     "ratingAvg": 4.7,
-    "downloads": 950000,
+    "downloads": "9.5M",
     "ratings": [
-      { "name": "1 star", "count": 150 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 280 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 2160 }
+      { "name": "1 star", "count1": 150 },
+      { "name": "2 star", "count2": 120 },
+      { "name": "3 star", "count3": 280 },
+      { "name": "4 star", "count4": 700 },
+      { "name": "5 star", "count5": 2160 }
     ]
   },
   {
@@ -204,15 +204,15 @@
     "id": 12,
     "description": "StudySmart helps students learn efficiently with smart flashcards, interactive quizzes, and AI-driven study plans. It analyzes your progress and adjusts questions to focus on weak areas. Sync your notes across devices, collaborate with friends, and track your performance visually. Perfect for exams, assignments, and lifelong learning.",
     "size": 72,
-    "reviews": 2780,
+    "reviews": "2.7K",
     "ratingAvg": 4.8,
-    "downloads": 780000,
+    "downloads": "7.8M",
     "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 210 },
-      { "name": "4 star", "count": 580 },
-      { "name": "5 star", "count": 1860 }
+      { "name": "1 star", "count1": 60 },
+      { "name": "2 star", "count2": 70 },
+      { "name": "3 star", "count3": 210 },
+      { "name": "4 star", "count4": 580 },
+      { "name": "5 star", "count5": 1860 }
     ]
   },
   {
@@ -222,15 +222,15 @@
     "id": 13,
     "description": "CodeMate is an integrated development environment built for mobile developers. It supports syntax highlighting, live preview, and real-time debugging. You can code in JavaScript, Python, and C++ right from your phone or tablet. The app even syncs your files with GitHub so you can keep your projects organized anywhere.",
     "size": 105,
-    "reviews": 4120,
+    "reviews": "4.1K",
     "ratingAvg": 4.6,
-    "downloads": 500000,
+    "downloads": "5M",
     "ratings": [
-      { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 180 },
-      { "name": "3 star", "count": 420 },
-      { "name": "4 star", "count": 1000 },
-      { "name": "5 star", "count": 2320 }
+      { "name": "1 star", "count1": 200 },
+      { "name": "2 star", "count2": 180 },
+      { "name": "3 star", "count3": 420 },
+      { "name": "4 star", "count4": 1000 },
+      { "name": "5 star", "count5": 2320 }
     ]
   },
   {
@@ -240,15 +240,15 @@
     "id": 14,
     "description": "MusicFlow is designed for true music lovers. Stream millions of songs, create playlists, and explore trending artists. Its adaptive sound engine personalizes playback to your mood. Whether you’re working out, studying, or relaxing, MusicFlow curates the perfect soundtrack for every moment with zero interruptions.",
     "size": 115,
-    "reviews": 7500,
+    "reviews": "7.5K",
     "ratingAvg": 4.5,
-    "downloads": 2200000,
+    "downloads": "2.2M",
     "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 350 },
-      { "name": "3 star", "count": 850 },
-      { "name": "4 star", "count": 1900 },
-      { "name": "5 star", "count": 4000 }
+      { "name": "1 star", "count1": 400 },
+      { "name": "2 star", "count2": 350 },
+      { "name": "3 star", "count3": 850 },
+      { "name": "4 star", "count4": 1900 },
+      { "name": "5 star", "count5": 4000 }
     ]
   },
   {
@@ -258,15 +258,15 @@
     "id": 15,
     "description": "ChatLink makes communication effortless and secure. With end-to-end encryption, fast file sharing, and cross-platform syncing, your conversations remain private and accessible anywhere. Group chats, voice calls, and status updates are integrated smoothly for both personal and professional use.",
     "size": 98,
-    "reviews": 6500,
+    "reviews": "6.5K",
     "ratingAvg": 4.4,
-    "downloads": 3000000,
+    "downloads": "3M",
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 900 },
-      { "name": "4 star", "count": 1600 },
-      { "name": "5 star", "count": 3100 }
+      { "name": "1 star", "count1": 500 },
+      { "name": "2 star", "count2": 400 },
+      { "name": "3 star", "count3": 900 },
+      { "name": "4 star", "count4": 1600 },
+      { "name": "5 star", "count5": 3100 }
     ]
   },
   {
@@ -276,15 +276,15 @@
     "id": 16,
     "description": "ShopEase redefines online shopping with a sleek and intuitive interface. Browse thousands of products, apply smart filters, and enjoy AI-based product recommendations. Secure payments, fast delivery, and exclusive discounts make it your go-to shopping destination. It’s everything you love about e-commerce, simplified.",
     "size": 87,
-    "reviews": 5200,
+    "reviews": "5.2K",
     "ratingAvg": 4.3,
-    "downloads": 1500000,
+    "downloads": "1.5M",
     "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 310 },
-      { "name": "3 star", "count": 720 },
-      { "name": "4 star", "count": 1300 },
-      { "name": "5 star", "count": 2470 }
+      { "name": "1 star", "count1": 400 },
+      { "name": "2 star", "count2": 310 },
+      { "name": "3 star", "count3": 720 },
+      { "name": "4 star", "count4": 1300 },
+      { "name": "5 star", "count5": 2470 }
     ]
   },
   {
@@ -294,15 +294,15 @@
     "id": 17,
     "description": "PetPal connects pet owners to nearby vets, groomers, and pet-friendly spaces. Keep track of vaccinations, appointments, and diet schedules. Share your pet’s milestones with a vibrant community of animal lovers. With PetPal, caring for your furry friend has never been easier or more fun.",
     "size": 69,
-    "reviews": 2670,
+    "reviews": "2.6K",
     "ratingAvg": 4.6,
-    "downloads": 480000,
+    "downloads": "4.8M",
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 210 },
-      { "name": "4 star", "count": 750 },
-      { "name": "5 star", "count": 1490 }
+      { "name": "1 star", "count1": 120 },
+      { "name": "2 star", "count2": 100 },
+      { "name": "3 star", "count3": 210 },
+      { "name": "4 star", "count4": 750 },
+      { "name": "5 star", "count5": 1490 }
     ]
   },
   {
@@ -312,15 +312,15 @@
     "id": 18,
     "description": "MindQuiz sharpens your brain through fun and challenging puzzles. It includes categories like logic, math, memory, and vocabulary, designed to test and train your mind daily. Compete with friends, earn badges, and unlock advanced levels. Perfect for learners, gamers, and anyone who loves mental challenges.",
     "size": 59,
-    "reviews": 1930,
+    "reviews": "1.9K",
     "ratingAvg": 4.7,
-    "downloads": 550000,
+    "downloads": "5.5M",
     "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 530 },
-      { "name": "5 star", "count": 1090 }
+      { "name": "1 star", "count1": 60 },
+      { "name": "2 star", "count2": 70 },
+      { "name": "3 star", "count3": 180 },
+      { "name": "4 star", "count4": 530 },
+      { "name": "5 star", "count5": 1090 }
     ]
   },
   {
@@ -330,15 +330,15 @@
     "id": 19,
     "description": "EcoTrack helps you measure and reduce your environmental footprint. Track energy use, water consumption, and daily carbon emissions. The app gives actionable tips to live sustainably and rewards eco-friendly habits with digital badges. Join a growing global community making a positive impact every day.",
     "size": 64,
-    "reviews": 2210,
+    "reviews": "2.2K",
     "ratingAvg": 4.8,
-    "downloads": 370000,
+    "downloads": "3.7M",
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 50 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 1320 }
+      { "name": "1 star", "count1": 40 },
+      { "name": "2 star", "count2": 50 },
+      { "name": "3 star", "count3": 200 },
+      { "name": "4 star", "count4": 600 },
+      { "name": "5 star", "count5": 1320 }
     ]
   },
   {
@@ -348,15 +348,15 @@
     "id": 20,
     "description": "HomeFix connects homeowners with trusted repair professionals in minutes. Book electricians, plumbers, or cleaners instantly and track service progress live. Read verified reviews, choose affordable pricing, and get real-time notifications. HomeFix is your one-stop app for maintaining a safe and comfortable home.",
     "size": 82,
-    "reviews": 3540,
+    "reviews": "3.5K",
     "ratingAvg": 4.5,
-    "downloads": 890000,
+    "downloads": "8.9M",
     "ratings": [
-      { "name": "1 star", "count": 190 },
-      { "name": "2 star", "count": 160 },
-      { "name": "3 star", "count": 340 },
-      { "name": "4 star", "count": 1000 },
-      { "name": "5 star", "count": 1850 }
+      { "name": "1 star", "count1": 190 },
+      { "name": "2 star", "count2": 160 },
+      { "name": "3 star", "count3": 340 },
+      { "name": "4 star", "count4": 1000 },
+      { "name": "5 star", "count5": 1850 }
     ]
   }
 ]
