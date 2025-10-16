@@ -42,20 +42,20 @@ const AppDetails = () => {
   //         Star: chartData.ratings.count1,
   //     }
   //   })
-//   if (!appDetails) {
-//     return (
-//       <div>
-//         <p className="text-center text-red-500">App not found!</p>
-//       </div>
-//     );
-//   }
+  //   if (!appDetails) {
+  //     return (
+  //       <div>
+  //         <p className="text-center text-red-500">App not found!</p>
+  //       </div>
+  //     );
+  //   }
 
   return (
     <div className="bg-[#F6F6F6] py-12">
-      <div className="max-w-[1200px] mx-auto">
-        <div className="flex justify-start gap-5">
-          <div>
-            <img src={image} alt={title} width="250px" className="rounded-xl" />
+      <div className="max-w-[1200px] mx-auto p-2">
+        <div className="flex flex-col md:flex-row justify-start gap-5">
+          <div className="flex justify-center">
+            <img src={image} alt={title} width="250px" height="250px" className="rounded-xl " />
           </div>
           <div className="w-full">
             <h1 className="font-bold text-2xl">{title}</h1>
@@ -91,32 +91,31 @@ const AppDetails = () => {
           </div>
         </div>
         {/* ratings  */}
-      <div>
-        <h1 className="text-xl font-bold mb-2">Ratings : </h1>
-        <ResponsiveContainer width="100%" height="100%" className="border">
-          <BarChart
-            width={500}
-            height={300}
-            margin={{
-              top: 5,
-              right: 30,
-              left: 20,
-              bottom: 5,
-            }}
-          >
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="counts" />
-            <YAxis />
-          </BarChart>
-        </ResponsiveContainer>
+        <div className="my-9">
+          <h1 className="text-xl font-bold mb-2">Ratings : </h1>
+          <ResponsiveContainer width="100%" height="100%" className="border">
+            <BarChart
+              width={500}
+              height={300}
+              margin={{
+                top: 5,
+                right: 30,
+                left: 20,
+                bottom: 5,
+              }}
+            >
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="counts" />
+              <YAxis />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+        {/* description  */}
+        <div>
+          <h1 className="text-xl font-bold mb-2">Description : </h1>
+          <p>{description}</p>
+        </div>
       </div>
-      {/* description  */}
-      <div>
-        <h1 className="text-xl font-bold mb-2">Description : </h1>
-        <p>{description}</p>
-      </div>
-      </div>
-      
     </div>
   );
 };
