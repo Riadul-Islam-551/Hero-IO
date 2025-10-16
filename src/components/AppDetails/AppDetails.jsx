@@ -36,15 +36,19 @@ const AppDetails = () => {
   //   console.log(stars);
   //   console.log(counts);
   //   const navigate = useNavigate();
-  //   if (!appDetails) {
-  //     return <p className="text-center text-red-500">App not found!</p>;
-  //   }
 
-//   const resultChartData = appDetails.map(chartData => {
-//     const chart = {
-//         Star: chartData.ratings.count1,
-//     }
-//   })
+  //   const resultChartData = appDetails.map(chartData => {
+  //     const chart = {
+  //         Star: chartData.ratings.count1,
+  //     }
+  //   })
+//   if (!appDetails) {
+//     return (
+//       <div>
+//         <p className="text-center text-red-500">App not found!</p>
+//       </div>
+//     );
+//   }
 
   return (
     <div className="bg-[#F6F6F6] py-12">
@@ -86,10 +90,9 @@ const AppDetails = () => {
             </div>
           </div>
         </div>
-      </div>
-      {/* ratings  */}
+        {/* ratings  */}
       <div>
-         <h1 className="text-xl font-bold mb-2">Ratings : </h1>
+        <h1 className="text-xl font-bold mb-2">Ratings : </h1>
         <ResponsiveContainer width="100%" height="100%" className="border">
           <BarChart
             width={500}
@@ -112,6 +115,8 @@ const AppDetails = () => {
         <h1 className="text-xl font-bold mb-2">Description : </h1>
         <p>{description}</p>
       </div>
+      </div>
+      
     </div>
   );
 };

@@ -6,6 +6,7 @@ import Home from "../Pages/Home/Home";
 import Apps from "../Pages/Apps/Apps";
 import Installation from "../Pages/Installation/Installation";
 import AppDetails from "../components/AppDetails/AppDetails";
+import AppNotFound from "../components/AppNotFound/AppNotFound";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +31,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/apps/:id",
+        errorElement: <AppNotFound />,
         loader: ({ params }) => {
           return fetch("/apps.json")
             .then((res) => res.json())
@@ -37,6 +39,9 @@ export const router = createBrowserRouter([
               const findApp = detailsData.find(
                 (app) => app.id === parseInt(params.id)
               );
+              if (!findApp) {
+                throw new Response("App Not Found", { status: 404 });
+              }
               return findApp;
             });
         },
