@@ -2,13 +2,17 @@ import React from "react";
 import download from "../../assets/icon-downloads.png";
 import rating from "../../assets/icon-ratings.png";
 import { removeInstalledApp } from "../../Pages/Utility/AddToDB";
+import { ToastContainer, toast } from "react-toastify";
 
 const InstalledApp = ({ installedApp }) => {
   const { image, title, downloads, ratingAvg, size, id } = installedApp;
+  const notify = () => toast("The App is Uninstalled From the Device Successfully !");
 
   const handleUninstalledList = (id) => {
     removeInstalledApp(id);
-     window.location.reload();
+
+    window.location.reload();
+    notify();
   };
   return (
     <div className="flex justify-between items-center my-4 p-3 max-w-[1200px] rounded-xl bg-[#ffffff]">
@@ -40,6 +44,7 @@ const InstalledApp = ({ installedApp }) => {
         >
           Uninstall
         </button>
+        <ToastContainer />
       </div>
     </div>
   );
