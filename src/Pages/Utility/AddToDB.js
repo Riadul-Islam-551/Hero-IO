@@ -21,4 +21,15 @@ const addInstalledApp = (id) => {
   console.log(storedAppData);
 };
 
-export { addInstalledApp , getInstalledApp};
+const removeInstalledApp = (id) => {
+  const storedAppData = getInstalledApp();
+
+  const removeableId = id.toString();
+
+  const newAppData = storedAppData.filter((appId) => appId !== removeableId);
+
+  const storedApp = JSON.stringify(newAppData);
+  localStorage.setItem("InstalledApp", storedApp);
+};
+
+export { addInstalledApp, getInstalledApp, removeInstalledApp };

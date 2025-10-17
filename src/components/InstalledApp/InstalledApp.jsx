@@ -1,12 +1,18 @@
 import React from "react";
 import download from "../../assets/icon-downloads.png";
 import rating from "../../assets/icon-ratings.png";
+import { removeInstalledApp } from "../../Pages/Utility/AddToDB";
 
 const InstalledApp = ({ installedApp }) => {
-  const { image, title, downloads, ratingAvg, size } = installedApp;
+  const { image, title, downloads, ratingAvg, size, id } = installedApp;
+
+  const handleUninstalledList = (id) => {
+    removeInstalledApp(id);
+     window.location.reload();
+  };
   return (
     <div className="flex justify-between items-center my-4 p-3 max-w-[1200px] rounded-xl bg-[#ffffff]">
-      <div className="flex justify-start items-center  ">
+      <div className="flex justify-start items-center  gap-3">
         <div>
           <img src={image} width="100px" className="rounded-xl" alt={title} />
         </div>
@@ -28,7 +34,12 @@ const InstalledApp = ({ installedApp }) => {
         </div>
       </div>
       <div>
-        <button className="btn btn-accent text-white">Uninstall</button>
+        <button
+          onClick={() => handleUninstalledList(id)}
+          className="btn btn-accent text-white"
+        >
+          Uninstall
+        </button>
       </div>
     </div>
   );

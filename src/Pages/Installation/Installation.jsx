@@ -6,6 +6,7 @@ import InstalledApp from "../../components/InstalledApp/InstalledApp.jsx";
 const Installation = () => {
   const data = useLoaderData();
   const [installedList, setInstalledList] = useState([]);
+  // const [newInstalledList, setNewInstalledList] = useState([]);
   console.log(data);
 
   useEffect(() => {
@@ -14,6 +15,7 @@ const Installation = () => {
     const appList = data.filter((app) => convertedStoredApp.includes(app.id));
     setInstalledList(appList);
   }, []);
+
 
   return (
     <div className="bg-[#F9F9F9]">
