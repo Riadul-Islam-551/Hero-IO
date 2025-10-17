@@ -18,7 +18,7 @@ const addInstalledApp = (id) => {
     const storedApp = JSON.stringify(storedAppData);
     localStorage.setItem("InstalledApp", storedApp);
   }
-  console.log(storedAppData);
+  // console.log(storedAppData);
 };
 
 const removeInstalledApp = (id) => {

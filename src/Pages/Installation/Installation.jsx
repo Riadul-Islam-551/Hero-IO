@@ -8,7 +8,7 @@ const Installation = () => {
   const [installedList, setInstalledList] = useState([]);
   const [sort, setSort] = useState("");
   // const [newInstalledList, setNewInstalledList] = useState([]);
-  console.log(installedList);
+  // console.log(installedList);
 
   useEffect(() => {
     const storedAppData = getInstalledApp();
@@ -34,7 +34,7 @@ const Installation = () => {
     }
   };
 
-  console.log(sort);
+  // console.log(sort);
   return (
     <div className="bg-[#F9F9F9]">
       <div className="max-w-[1200px] py-12 px-2 mx-auto ">
