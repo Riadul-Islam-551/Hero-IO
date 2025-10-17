@@ -1,16 +1,40 @@
-# React + Vite
+# **Project Name : HERO.IO**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# **Project Overview:** 
+This is a modern, single-page application (SPA) built with React and React Router that simulates an application marketplace or catalog. The application is designed to showcase various mobile/web applications, provide detailed metrics, and offer a smooth user experience for browsing and managing installed apps.
 
-Currently, two official plugins are available:
+# **Key Features:**
+1. **App Discovery:** Browse a comprehensive list of available applications with real-time filtering/searching capabilities.
+2. **Detailed Views:** Access individual app pages to view rich information, including:
+    - Developer Info.
+    - Download Counts & Average Ratings.
+    - Visual Rating Distribution Chart.
+    - Full Description
+3. **Installation Management:** Users can "install" applications via a persistent local storage mechanism.
+    - The "Install Now" button automatically changes to "Installed" and is functionally disabled upon successful installation.
+4. **Installation Tracking:** A dedicated Installation page allows users to see and manage all their currently installed applications.
+5. **Responsive Design:** Optimized for seamless viewing and interaction across desktop, tablet, and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# **Technology Stack:**
 
-## React Compiler
+1. **Dependencies:**
+    - @tailwindcss/vite: 4.1.14
+    - react: 19.1.1
+    - react-dom: 19.1.1
+    - react-icons: 5.5.0
+    - react-router: 7.9.4
+    - react-toastify: 11.0.5
+    - recharts": 3.2.1
+    - tailwindcss": 4.1.14
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **DevDependencies**
+    - @eslint/js: 9.36.0
+    - @types/react: 19.1.16
+    - @types/react-dom: 19.1.9
+    - @vitejs/plugin-react: 5.0.4
+    - daisyui: 5.2.2
+    - eslint: 9.36.0
+    - eslint-plugin-react-hooks: 5.2.0
+    - eslint-plugin-react-refresh: 0.4.22
+    - globals: 16.4.0
+    - vite: 7.1.7
