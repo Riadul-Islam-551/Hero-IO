@@ -21,4 +21,4 @@ const addInstalledApp = (id) => {
   console.log(storedAppData);
 };
 
-export { addInstalledApp };
+export { addInstalledApp , getInstalledApp};
