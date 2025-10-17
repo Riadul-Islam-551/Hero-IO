@@ -86,7 +86,6 @@ const AppDetails = () => {
                       ? "btn bg-[#037450] border-none cursor-not-allowed"
                       : "btn bg-[#00D390] border-none"
                   }`}
-                  
                 >
                   {isInstalled ? "Installed" : "Install Now ({size} MB )"}
                 </button>

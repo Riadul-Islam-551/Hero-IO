@@ -1,5 +1,5 @@
 [
-  {
+ {
     "image": "https://play-lh.googleusercontent.com/RNy9A2MJ23YJuMfGat8HCk4OciBflKAZfsYTqXj4hM-9bmJ2tL2ol9gpceZsaUpDqw=w240-h480-rw",
     "title": "FitTrack Pro",
     "companyName": "Healthify Labs",
@@ -8,13 +8,13 @@
     "size": 56,
     "reviews": "1.4K",
     "ratingAvg": 4.3,
-    "downloads": "5M",
+    "downloads": "5",
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 210 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 640 }
+      { "name": "1 star", "count1": 120 },
+      { "name": "2 star", "count2": 80 },
+      { "name": "3 star", "count3": 210 },
+      { "name": "4 star", "count4": 400 },
+      { "name": "5 star", "count5": 640 }
     ]
   },
   {
@@ -26,13 +26,13 @@
     "size": 34,
     "reviews": "0.9K",
     "ratingAvg": 4.6,
-    "downloads": "2.5M",
+    "downloads": "2.5",
     "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 90 },
-      { "name": "4 star", "count": 270 },
-      { "name": "5 star", "count": 517 }
+      { "name": "1 star", "count1": 50 },
+      { "name": "2 star", "count2": 60 },
+      { "name": "3 star", "count3": 90 },
+      { "name": "4 star", "count4": 270 },
+      { "name": "5 star", "count5": 517 }
     ]
   },
   {
@@ -44,13 +44,13 @@
     "size": 40,
     "reviews": "2.2K",
     "ratingAvg": 4.7,
-    "downloads": "10M",
+    "downloads": "10",
     "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 110 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 1200 }
+      { "name": "1 star", "count1": 90 },
+      { "name": "2 star", "count2": 110 },
+      { "name": "3 star", "count3": 200 },
+      { "name": "4 star", "count4": 600 },
+      { "name": "5 star", "count5": 1200 }
     ]
   },
   {
@@ -62,13 +62,13 @@
     "size": 75,
     "reviews": "3.4K",
     "ratingAvg": 4.5,
-    "downloads": "8M",
+    "downloads": "8",
     "ratings": [
-      { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 421 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 1750 }
+      { "name": "1 star", "count1": 200 },
+      { "name": "2 star", "count2": 150 },
+      { "name": "3 star", "count3": 421 },
+      { "name": "4 star", "count4": 900 },
+      { "name": "5 star", "count5": 1750 }
     ]
   },
   {
@@ -80,13 +80,13 @@
     "size": 92,
     "reviews": "5.5K",
     "ratingAvg": 4.4,
-    "downloads": "1.2M",
+    "downloads": "1.2",
     "ratings": [
-      { "name": "1 star", "count": 310 },
-      { "name": "2 star", "count": 240 },
-      { "name": "3 star", "count": 780 },
-      { "name": "4 star", "count": 1600 },
-      { "name": "5 star", "count": 2630 }
+      { "name": "1 star", "count1": 310 },
+      { "name": "2 star", "count2": 240 },
+      { "name": "3 star", "count3": 780 },
+      { "name": "4 star", "count4": 1600 },
+      { "name": "5 star", "count5": 2630 }
     ]
   },
   {
@@ -98,13 +98,13 @@
     "size": 48,
     "reviews": "1.7K",
     "ratingAvg": 4.8,
-    "downloads": "4.5M",
+    "downloads": "4.5",
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 420 },
-      { "name": "5 star", "count": 1130 }
+      { "name": "1 star", "count1": 40 },
+      { "name": "2 star", "count2": 70 },
+      { "name": "3 star", "count3": 120 },
+      { "name": "4 star", "count4": 420 },
+      { "name": "5 star", "count5": 1130 }
     ]
   },
   {
@@ -116,13 +116,13 @@
     "size": 63,
     "reviews": "2.1K",
     "ratingAvg": 4.2,
-    "downloads": "7M",
+    "downloads": "7",
     "ratings": [
-      { "name": "1 star", "count": 190 },
-      { "name": "2 star", "count": 180 },
-      { "name": "3 star", "count": 310 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 820 }
+      { "name": "1 star", "count1": 190 },
+      { "name": "2 star", "count2": 180 },
+      { "name": "3 star", "count3": 310 },
+      { "name": "4 star", "count4": 600 },
+      { "name": "5 star", "count5": 820 }
     ]
   },
   {
@@ -134,13 +134,13 @@
     "size": 44,
     "reviews": "2.9K",
     "ratingAvg": 4.6,
-    "downloads": "6M",
+    "downloads": "6",
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 250 },
-      { "name": "4 star", "count": 720 },
-      { "name": "5 star", "count": 1797 }
+      { "name": "1 star", "count1": 100 },
+      { "name": "2 star", "count2": 120 },
+      { "name": "3 star", "count3": 250 },
+      { "name": "4 star", "count4": 720 },
+      { "name": "5 star", "count5": 1797 }
     ]
   }
 ]
