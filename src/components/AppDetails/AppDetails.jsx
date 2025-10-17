@@ -32,6 +32,15 @@ const AppDetails = () => {
     downloads,
     ratings,
   } = appDetails;
+  // rechart
+  const chartData = appDetails.ratings.map((rating, index) => {
+    const countKey = `count${index + 1}`;
+
+    return {
+      name: rating.name,
+      count: rating[countKey],
+    };
+  });
   // console.log(appDetails);
   const [isInstalled, setAsInstalled] = useState(false);
   // local Storage integration
@@ -96,20 +105,31 @@ const AppDetails = () => {
         {/* ratings  */}
         <div className="my-9">
           <h1 className="text-xl font-bold mb-2">Ratings : </h1>
-          <ResponsiveContainer width="100%" height="100%" className="border">
+          <ResponsiveContainer
+            width="100%"
+            height={400}
+            className="focus:border-none focus:outline-none"
+          >
             <BarChart
-              width={500}
-              height={300}
+              data={chartData}
               margin={{
-                top: 5,
+                top: 20,
                 right: 30,
                 left: 20,
                 bottom: 5,
               }}
             >
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="counts" />
+              <CartesianGrid strokeDasharray="" />
+              <XAxis dataKey="name" />
               <YAxis />
+              <Tooltip />
+              <Legend />
+              <Bar
+                dataKey="count"
+                name="Review Count"
+                fill="#00D390"
+                Bar={<Rectangle fill="#00D390" stroke="#632EE3"/>}
+              />
             </BarChart>
           </ResponsiveContainer>
         </div>
