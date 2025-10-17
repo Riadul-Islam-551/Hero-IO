@@ -27,7 +27,12 @@ const Home = () => {
         </div>
       </div>
       <div className="flex justify-center mb-3">
-        <Link to="/app" className="btn border-0 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-7 py-2 rounded-lg hover:opacity-90">Show All</Link>
+        <Link
+          to="/app"
+          className="btn border-0 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-7 py-2 rounded-lg hover:opacity-90"
+        >
+          Show All
+        </Link>
       </div>
     </div>
   );

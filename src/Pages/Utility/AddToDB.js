@@ -12,7 +12,7 @@ const getInstalledApp = () => {
 const addInstalledApp = (id) => {
   const storedAppData = getInstalledApp();
   if (storedAppData.includes(id)) {
-    alert("The App is Installed");
+    alert("This App is already Installed");
   } else {
     storedAppData.push(id);
     const storedApp = JSON.stringify(storedAppData);
