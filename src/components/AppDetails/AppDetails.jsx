@@ -73,7 +73,7 @@ const AppDetails = () => {
               <div>
                 <img src={Download} alt="Download" width="16px" />
                 <p className="text-[10px] mt-1">Downloads</p>
-                <h1 className="font-bold">{downloads}</h1>
+                <h1 className="font-bold">{downloads} M</h1>
               </div>
               <div>
                 <img src={Rating} alt="Rating" width="16px" />

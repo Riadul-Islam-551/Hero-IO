@@ -28,7 +28,7 @@ const AppCard = ({ appCard }) => {
             <div className="flex justify-center items-center py-1 px-2 rounded bg-[#DCE9C1]">
               <img src={download} width="14px" alt="download" />
               <p className="text-sm ml-1 text-[#00D390] font-bold">
-                {downloads}
+                {downloads} M
               </p>
             </div>
             <div className="flex justify-center items-center py-1 px-2 rounded bg-[#F0DBC7]">

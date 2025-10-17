@@ -21,7 +21,7 @@ const InstalledApp = ({ installedApp }) => {
           <div className="flex justify-start items-center gap-5">
             <div className="flex items-center gap-1">
               <img src={download} width="16px" alt="" />
-              <p className="text-sm">{downloads}</p>
+              <p className="text-sm">{downloads} M</p>
             </div>
             <div className="flex justify-center items-center gap-1">
               <img src={rating} width="16px" alt="" />
