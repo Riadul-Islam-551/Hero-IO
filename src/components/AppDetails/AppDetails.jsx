@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLoaderData, useNavigate, useParams } from "react-router";
+import { ToastContainer, toast } from "react-toastify";
 import {
   BarChart,
   Bar,
@@ -47,7 +48,11 @@ const AppDetails = () => {
   const addToInstallation = (id) => {
     addInstalledApp(id);
     setAsInstalled(true);
+    notify();
   };
+
+  // react toastify
+  const notify = () => toast("The App Installed Successfully");
 
   return (
     <div className="bg-[#F6F6F6] py-12">
@@ -89,7 +94,10 @@ const AppDetails = () => {
             <div className="mt-6">
               <Link>
                 <button
-                  onClick={() => addToInstallation(appId)}
+                  onClick={
+                    isInstalled ? undefined : () => addToInstallation(appId)
+                  }
+                  
                   className={` ${
                     isInstalled
                       ? "btn bg-[#037450] border-none cursor-not-allowed"
@@ -98,6 +106,7 @@ const AppDetails = () => {
                 >
                   {isInstalled ? "Installed" : "Install Now ({size} MB )"}
                 </button>
+                <ToastContainer />
               </Link>
             </div>
           </div>
@@ -128,7 +137,7 @@ const AppDetails = () => {
                 dataKey="count"
                 name="Review Count"
                 fill="#00D390"
-                Bar={<Rectangle fill="#00D390" stroke="#632EE3"/>}
+                Bar={<Rectangle fill="#00D390" stroke="#632EE3" />}
               />
             </BarChart>
           </ResponsiveContainer>

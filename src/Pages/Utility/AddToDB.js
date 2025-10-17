@@ -12,11 +12,13 @@ const getInstalledApp = () => {
 const addInstalledApp = (id) => {
   const storedAppData = getInstalledApp();
   if (storedAppData.includes(id)) {
-    alert("This App is already Installed");
+    // alert("This App is already Installed");
+    return false;
   } else {
     storedAppData.push(id);
     const storedApp = JSON.stringify(storedAppData);
     localStorage.setItem("InstalledApp", storedApp);
+    return true;
   }
   // console.log(storedAppData);
 };
