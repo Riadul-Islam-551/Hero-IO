@@ -18,7 +18,7 @@ const AppCard = ({ appCard }) => {
               src={appCard.image}
               width="250"
               height="250"
-              alt=""
+              alt={title}
             />
           </div>
           <div>

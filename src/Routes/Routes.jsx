@@ -30,14 +30,14 @@ export const router = createBrowserRouter([
         Component: Installation,
       },
       {
-        path: "/apps/:id",
+        path: "/apps/:appId",
         errorElement: <AppNotFound />,
         loader: ({ params }) => {
           return fetch("/apps.json")
             .then((res) => res.json())
             .then((detailsData) => {
               const findApp = detailsData.find(
-                (app) => app.id === parseInt(params.id)
+                (app) => app.id === parseInt(params.appId)
               );
               if (!findApp) {
                 throw new Response("App Not Found", { status: 404 });

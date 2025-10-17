@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLoaderData, useNavigate } from "react-router";
+import { Link, useLoaderData, useNavigate, useParams } from "react-router";
 import {
   BarChart,
   Bar,
@@ -14,9 +14,12 @@ import {
 import Download from "../../assets/icon-downloads.png";
 import Rating from "../../assets/icon-ratings.png";
 import Review from "../../assets/icon-review.png";
+import { addInstalledApp } from "../../Pages/Utility/AddToDB";
 
 const AppDetails = () => {
   const appDetails = useLoaderData();
+  const { appId } = useParams();
+  // console.log(appId);
   const {
     image,
     title,
@@ -29,33 +32,25 @@ const AppDetails = () => {
     downloads,
     ratings,
   } = appDetails;
-  console.log(appDetails);
-  //   distructure the ratings data
-  //   const stars = appDetails.ratings.map(({ name }) => name);
-  //   const counts = appDetails.ratings.map(({ count }) => count);
-  //   console.log(stars);
-  //   console.log(counts);
-  //   const navigate = useNavigate();
+  // console.log(appDetails);
 
-  //   const resultChartData = appDetails.map(chartData => {
-  //     const chart = {
-  //         Star: chartData.ratings.count1,
-  //     }
-  //   })
-  //   if (!appDetails) {
-  //     return (
-  //       <div>
-  //         <p className="text-center text-red-500">App not found!</p>
-  //       </div>
-  //     );
-  //   }
+  // local Storage integration
+  const addToInstallation = (id) => {
+    addInstalledApp(id);
+  };
 
   return (
     <div className="bg-[#F6F6F6] py-12">
       <div className="max-w-[1200px] mx-auto p-2">
         <div className="flex flex-col md:flex-row justify-start gap-5">
           <div className="flex justify-center">
-            <img src={image} alt={title} width="250px" height="250px" className="rounded-xl " />
+            <img
+              src={image}
+              alt={title}
+              width="250px"
+              height="250px"
+              className="rounded-xl "
+            />
           </div>
           <div className="w-full">
             <h1 className="font-bold text-2xl">{title}</h1>
@@ -83,7 +78,10 @@ const AppDetails = () => {
             </div>
             <div className="mt-6">
               <Link>
-                <button className="btn bg-[#00D390] border-none">
+                <button
+                  onClick={() => addToInstallation(appId)}
+                  className="btn bg-[#00D390] border-none"
+                >
                   Install Now ({size} MB )
                 </button>
               </Link>
