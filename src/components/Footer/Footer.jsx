@@ -73,7 +73,7 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-      <div>
+      <div className="h-[200px]">
         <p className="text-base-content text-sm text-center p-9">
           Copyright © 2025 - All right reserved
         </p>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useLoaderData, useNavigate, useParams } from "react-router";
 import {
   BarChart,
@@ -33,10 +33,11 @@ const AppDetails = () => {
     ratings,
   } = appDetails;
   // console.log(appDetails);
-
+  const [isInstalled, setAsInstalled] = useState(false);
   // local Storage integration
   const addToInstallation = (id) => {
     addInstalledApp(id);
+    setAsInstalled(true);
   };
 
   return (
@@ -80,9 +81,14 @@ const AppDetails = () => {
               <Link>
                 <button
                   onClick={() => addToInstallation(appId)}
-                  className="btn bg-[#00D390] border-none"
+                  className={` ${
+                    isInstalled
+                      ? "btn bg-[#037450] border-none cursor-not-allowed"
+                      : "btn bg-[#00D390] border-none"
+                  }`}
+                  
                 >
-                  Install Now ({size} MB )
+                  {isInstalled ? "Installed" : "Install Now ({size} MB )"}
                 </button>
               </Link>
             </div>
